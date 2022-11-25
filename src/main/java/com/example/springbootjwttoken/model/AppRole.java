@@ -10,7 +10,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity @Data @NoArgsConstructor @AllArgsConstructor
-
 public class AppRole {
 
 	@Id @GeneratedValue(strategy = GenerationType.AUTO)
